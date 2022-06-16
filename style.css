@@ -1,0 +1,46 @@
+body { 
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.title { 
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.195);
+    padding-bottom: 1rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ a button { 
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;   
+    background-color: black;
+    cursor:pointer
+} 
+a button:hover { 
+transform: scale(1.03);
+  transition: all 1s ease;
+}
