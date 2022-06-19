@@ -2,7 +2,7 @@
 
 I created this app using an AI API 
 
-For live preview clik the link below 
+For live preview click the link below 
 
 https://meek-sunburst-07f1d4.netlify.app 
 
